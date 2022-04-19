@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  apiKey: string = "AIzaSyA2_iAbZSBm7NEpdBsUJ-vKuK6uX8JC1MM"
+  apiKey: string = "HERE PUT YOUR GOOGLE BOOK API KEY"
   searchInput: string = ""
   searching: boolean = false;
   loading: boolean = false;
